@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #green {background-color: chartreuse;}
+        #orange {background-color: coral;}
+        #Red {background-color: crimson;}
+        button {border-radius: 5px;
+        width: 100px;
+        height: 50px;
+        margin: 15px;}
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Color flipper Morrad</title>
 </head>
 <body>
-    
+    <h1>Color Flipper</h1>
+    <button id="green" onclick="setColor('green')">green</button>
+    <button id="Red" onclick="setColor('Red')">Red</button>
+    <button id="orange" onclick="setColor('orange')">Orange</button>
+    <button>Random</button>
+    <script src="index.js"></script>
 </body>
 </html>
